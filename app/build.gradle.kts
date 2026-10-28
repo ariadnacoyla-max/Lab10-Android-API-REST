@@ -60,6 +60,14 @@ dependencies {
 
 // Gson para convertir respuestas JSON en objetos Kotlin
     implementation("com.squareup.retrofit2:converter-gson:2.11.0")
+
+
+    // Navegación entre pantallas con Jetpack Compose
+    implementation("androidx.navigation:navigation-compose:2.8.6")
+
+    // Íconos de edición y eliminación para las series
+    implementation("androidx.compose.material:material-icons-extended")
+
 }
 
 
